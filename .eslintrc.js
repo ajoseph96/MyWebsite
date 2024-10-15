@@ -6,13 +6,13 @@ module.exports = {
         ecmaFeatures: {
             jsx: true,
         },
-        project: "./tsconfig.json"
+        project: "./tsconfig.json",
     },
     plugins: ["@typescript-eslint", "prettier"],
     settings: {
-react: {
-    version: "detect",
-},
+        react: {
+            version: "detect",
+        },
     },
     root: true,
     extends: [
@@ -32,9 +32,5 @@ react: {
         "@typescript-eslint/no-unsafe-argument": 2,
         "@typescript-eslint/no-unsafe-return": 2,
         "no-console": 1,
-
-
-
-        
-    }
-}
+    },
+};
