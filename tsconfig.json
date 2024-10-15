@@ -25,7 +25,9 @@
         "allowJs": true,
         "baseUrl": "./src",
         "paths":{
-            "@components":["components/index"]
+            "@components":["components/index"],
+            "@contexts": ["contexts/index"],
+            "@providers": ["providers/index"]
         }
     },
     "include": ["src"],
