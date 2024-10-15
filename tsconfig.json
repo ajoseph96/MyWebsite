@@ -23,6 +23,10 @@
         "noImplicitAny": true,
         "jsx": "react-jsx",
         "allowJs": true,
+        "baseUrl": "./src",
+        "paths":{
+            "@components":["components/index"]
+        }
     },
     "include": ["src"],
     "exclude": ["node_modules", "build", "dist", "vite.config.ts"]
